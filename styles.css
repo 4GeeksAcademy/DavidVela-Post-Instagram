@@ -1,7 +1,3 @@
-* {
-    border: 1px dotted red;
-}
-
 body {
     background-color: black;
     display: flex;
@@ -10,7 +6,7 @@ body {
 
 .post {
     background-color: white;
-    width: 300px;
+    width: 350px;
     height: 500px;
     display: flex;
     flex-direction: column;
@@ -27,7 +23,7 @@ body {
 
 .post-image {
     width: 100%;
-    height: 60%;
+    height: 55%;
 }
 
 img {
@@ -45,25 +41,58 @@ img {
 
 .post-info {
     width: 100%;
-    height: 30%;
+    height: 25%;
+    padding: 8px;
 }
 
 .post-head-left{
     width: 30%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .post-head-right{
     width: 10%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .post-icons-left{
-    width: 30%;
+    width: 35%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .post-icons-right{
     width: 10%;
     height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-head-left-icon {
+    margin-right: 8px;
+}
+
+i{
+    font-size: 25px;
+}
+
+p {
+    font-size: 13px;
+}
+
+.heart-icon, .comment-icon, .paper-plane-icon {
+    margin: 2px;
 }
